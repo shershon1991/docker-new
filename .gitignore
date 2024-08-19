@@ -17,8 +17,6 @@ redis/data
 
 jenkins/secrets
 
-bin
-
 .DS_Store
 .env
 docker-compose.yml
