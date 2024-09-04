@@ -47,8 +47,13 @@ cp docker-compose.yml-template docker-compose.yml
 ```shell
 # 改成自己电脑的IP
 DOCKER_HOST_IP=改成自己电脑的IP
-# 本地php项目的上级目录
-APP_CODE_PATH_HOST=本地php项目的上级目录
+
+# 设置本地项目根目录
+APP_CODE_PATH_HOST=本地项目根目录
+
+# 设置容器内项目根目录
+APP_CODE_PATH_CONTAINER=容器内项目根目录
+
 # 持久卷位置
 DATA_PATH_HOST=持久卷位置
 ```
