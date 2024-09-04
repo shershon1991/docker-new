@@ -2,6 +2,7 @@
 logs
 
 nginx/extend
+nginx/sites/*.conf
 
 rabbitmq/mnesia
 rabbitmq/.erlang.cookie
