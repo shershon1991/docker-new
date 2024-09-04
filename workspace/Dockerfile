@@ -1,5 +1,4 @@
-ARG PHP_VERSION
-FROM shershon/php-dev-env:workspace-${PHP_VERSION}
+FROM shershon/workspace:1.0
 LABEL maintainer="Shershon <18810877074@163.com>"
 
 ###########################################################################

@@ -1,5 +1,4 @@
-ARG PHP_VERSION
-FROM shershon/php-dev-env:php-fpm-${PHP_VERSION}
+FROM shershon/php-fpm:1.0
 LABEL maintainer="Shershon <18810877074@163.com>"
 
 # 时区
